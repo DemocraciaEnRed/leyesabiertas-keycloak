@@ -45,7 +45,7 @@
     </nav>
 
     <div class="secondaryBar">
-        <h2 class="secondaryH2">Portal de <span>Co-creación Legislativa</span></h2>
+        <h2 class="secondaryH2">Portal de <span>Leyes Abiertas</span></h2>
         <div class="linkBar">
            <a href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/#projects" class="footerLink">Proyectos</a>
            <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=como-participar'class="footerLink">Cómo participar</a>
