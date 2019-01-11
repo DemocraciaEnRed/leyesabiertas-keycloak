@@ -71,7 +71,12 @@
             </#if>
 
             <div class="${properties.kcFormGroupClass!}">
-
+                <div class="checkbox terminosycondiciones">
+                    <label>
+                            <input tabindex="3" id="terminosycondiciones" name="terminosycondiciones" type="checkbox" checked> ${msg("terminosycondiciones")}
+                    </label>
+                </div>
+                <span class="terminosycondiciones"><a tabindex="6" href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/terminos-y-condiciones'>${msg("goToTermsAndCondicions")}</a></span>
                             <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                     <input id="RegisterButton" class="${properties.kcButtonClassCustom!} ${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegisterButton")}"/>
                 </div>
