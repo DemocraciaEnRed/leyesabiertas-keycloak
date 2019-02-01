@@ -53,6 +53,9 @@
      </div>
     </div>
     
+    <div class="breadcrumbBar">
+        <a class="loginButton light" href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/"> < Volver al inicio</a>
+    </div>
 
     <div class="${properties.kcFormCardClass!} <#if displayWide>${properties.kcFormCardAccountClass!}</#if>">
       <header class="${properties.kcFormHeaderClass!}">
