@@ -9,6 +9,12 @@ h1#kc-page-title{
     margin-top:6rem;
 }
 
+.terminosycondiciones {
+    padding-left:20px;
+    margin-bottom:20px;
+    display:block;
+}
+
 #RegisterButton {
     background-color: #5c97bc;
     border-color: #5c97bc;
@@ -25,7 +31,7 @@ h1#kc-page-title{
 }
 
 #kc-content {
-    max-width: 850px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,7 +51,11 @@ h1#kc-page-title{
     display:flex;
     justify-content:center;
 }
-
+@media (max-width:800px){
+    .logoWrapper {
+        width:100%;
+        margin-left:0px;}
+}
 .Logo {
     width: 130px;
     height: 98px;
@@ -55,6 +65,13 @@ h1#kc-page-title{
     box-sizing: border-box;
     cursor:pointer;
 }
+.breadcrumbBar{
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    padding:10px 10px 10px 3.6%;
+}
 
 .loginBar {
     display:flex;
@@ -62,7 +79,10 @@ h1#kc-page-title{
     width:33%;
     margin-top:auto;
 }
-
+@media (max-width:800px){
+    .loginBar {
+       display: none;}
+}
 .loginButton {
     max-width: 130px;
     height: 22px;
@@ -99,7 +119,10 @@ h1#kc-page-title{
     padding-right:5%;
     padding-top:2rem;
 }
-
+@media (max-width:800px){
+    .secondaryBar {
+       display: none;}
+}
 .secondaryH2 {
     font-size: 2rem;
     color: #101a21;
@@ -141,7 +164,10 @@ h1#kc-page-title{
     flex-direction:column;
     justify-content: flex-end;
 }
-
+@media (max-width:800px){
+    .footerWrapper {
+       display: none;}
+}
 .footerBar {
     width:60%;  
     margin-left:auto;
@@ -394,66 +420,9 @@ div.kc-logo-text span {
     color: #72767b;
 }
 
-.login-pf-page .login-pf-header h1 {
-    font-size: 30px;
-    line-height: 65px;
-    font-weight: bold;
-    color: #454246;
-}
-
 #kc-terms-text {
     margin-bottom: 20px;
 }
-
-#kc-terms-text section {
-    margin-bottom: 20px;
-}
-
-#kc-terms-text section span {
-    font-size: 2.0rem;
-    line-height: 30px;
-    color: rgb(66,66,70);
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-#kc-terms-text section p {
-    font-size: 1.4rem;
-    line-height: 30px;
-    color: rgb(69, 66, 70);
-    margin: 20px 0;
-  }
-
-#kc-terms-text section ul {
-  font-size: 1.4rem;
-  line-height: 3.0rem;
-  color: #454246;
-  max-width: 850px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-
-.term-btn-decline {
-    background-color: #FFF;
-    border-color: #5c97bc;
-    color: #4f81a1;
-    background-image: none;
-    height: 40px;
-}
-
-.term-btn-accept {
-    background-color: #5c97bc;
-    border-color: #5c97bc;
-    color: #fff;
-    background-image: none;
-    height: 40px;
-}
-
-.term-btn-accept:hover {
-    background-color: #5c97bc;
-}
-
-
 
 #kc-registration {
     margin-bottom: 15px;
@@ -572,23 +541,8 @@ a.zocial  {
 .zocial.stackoverflow:before{ color: inherit; }
 
 #kc-form-wrapper{
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width:100%;
 }
-
-#kc-register-form {
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#kc-reset-password-form {
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
 #kc-social-providers{
     padding:0;
     border:0;
@@ -712,7 +666,7 @@ a.zocial  {
   background: #fff;
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 800px;
+  max-width: 500px;
   border-top: 0;
   box-shadow: 0 0 0;
 }
