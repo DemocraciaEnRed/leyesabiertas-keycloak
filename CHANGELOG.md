@@ -1,5 +1,9 @@
 # Changelog
 
+**1.0.5** 
+
+- Fixed styles for mobile
+
 **1.0.4** 
 
 - Added custom messages in the email templates. It's mandatory to select "es" as the default locale of the realm.
