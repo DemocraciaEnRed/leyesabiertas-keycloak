@@ -48,13 +48,13 @@ $ sudo docker run -d --name keycloak \
                   -e "KEYCLOAK_USER=democracyos" \
                   -e "KEYCLOAK_PASSWORD=democracyos" \
                   -e "KEYCLOAK_WELCOME_THEME=democracyos" \
-                  -v $(pwd)/democracyos:/opt/jboss/keycloak/democracyos:rw
+                  -v $(pwd)/democracyos:/opt/jboss/keycloak/themes/democracyos:rw
                   democracyos/keycloak:4.4.0.Final
 ```
 
 *Copy & Paste friendly one-liner*
 ```bash
-$ sudo docker run -d --name keycloak -p 8080:8080 -e "KEYCLOAK_USER=democracyos" -e "KEYCLOAK_PASSWORD=democracyos" -e "KEYCLOAK_WELCOME_THEME=democracyos" -v $(pwd)/democracyos:/opt/jboss/keycloak/democracyos:rw democracyos/keycloak:4.4.0.Final
+$ sudo docker run -d --name keycloak -p 8080:8080 -e "KEYCLOAK_USER=democracyos" -e "KEYCLOAK_PASSWORD=democracyos" -e "KEYCLOAK_WELCOME_THEME=democracyos" -v $(pwd)/democracyos:/opt/jboss/keycloak/themes/democracyos:rw democracyos/keycloak:4.4.0.Final
 ```
 
 ### Docker Image files

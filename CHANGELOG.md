@@ -1,0 +1,6 @@
+# Changelog
+
+**1.0.4** 
+
+- Added custom messages in the email templates. It's mandatory to select "es" as the default locale of the realm.
+- Fixed the README description, section _Customize DemocracyOS theme_ for live changes (there was a bad path in the volume parameter) 
