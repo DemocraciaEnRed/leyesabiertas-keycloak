@@ -47,9 +47,9 @@
     <div class="secondaryBar">
         <h2 class="secondaryH2">Portal de <span>Leyes Abiertas</span></h2>
         <div class="linkBar">
-           <a href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/#projects" class="footerLink">Proyectos</a>
+           <a href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/#projects" class="footerLink">Propuestas</a>
            <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=como-participar'class="footerLink">Cómo participar</a>
-           <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=sobre-la-plataforma'class="footerLink">La plataforma</a>
+           <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=sobre-la-plataforma'class="footerLink">Acerca de</a>
      </div>
     </div>
     
@@ -104,9 +104,12 @@
 
 <footer class="footerWrapper">
     <div class="footerBar">
-        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/#projects' class="footerLink">Proyectos</a>
-        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=como-participar'class="footerLink">Cómo participar</a>
-        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=sobre-la-plataforma'class="footerLink">La plataforma</a>
+        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=acerca-de' class="footerLink">Acerca de</a>
+        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=contacto' class="footerLink">Contacto</a>
+        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=faq' class="footerLink">Preguntas frecuentes</a>
+        <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/terminos-y-condiciones' class="footerLink">Términos y condiciones</a>
+
+
     </div>
     
     <div class="socialBar">
