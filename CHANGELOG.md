@@ -1,5 +1,9 @@
 # Changelog
 
+**1.0.7** 
+
+- Added target=_blank in a url
+
 **1.0.6** 
 
 - Fixed urls in navbar
