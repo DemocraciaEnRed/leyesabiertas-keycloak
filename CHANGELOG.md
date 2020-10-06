@@ -1,5 +1,9 @@
 # Changelog
 
+**1.0.8** 
+
+- Change on democracyos's theme themplate
+
 **1.0.7** 
 
 - Added target=_blank in a url
