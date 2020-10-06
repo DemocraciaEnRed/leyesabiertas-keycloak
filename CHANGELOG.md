@@ -1,6 +1,6 @@
 # Changelog
 
-**1.0.8** 
+**1.8.0** 
 
 - Change on democracyos's theme themplate
 
